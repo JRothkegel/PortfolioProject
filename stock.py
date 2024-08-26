@@ -8,5 +8,5 @@ class Stock:
     def set_price(self, date: str, price: float) -> None:
         self.prices[date] = price
 
-    def get_price(self, date: str) -> Optional[float]:
+    def price(self, date: str) -> Optional[float]:
         return self.prices.get(date)
