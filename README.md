@@ -20,3 +20,11 @@ Clone the repository and navigate to the project directory:
 ```bash
 git clone https://github.com/JRothkegel/PortfolioProject.git
 cd PortfolioProject
+```
+
+### Run tests
+
+```
+python3 -m unittest test_stock.py
+python3 -m unittest test_portfolio.py
+```
